@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300&display=swap');
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+body
+{
+    padding: 10px;
+    margin: 0;
+}
+.logo
+{
+    
+    transform:translateX(-45%);
+}
+h1
+{
+    font-family: 'Nunito', sans-serif;
+}
+h2
+{
+    font-family: 'Nunito', sans-serif;
+}
+.container
+{
+    width: 80%;
+    background-image: linear-gradient(lightblue,white,lightblue);
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+ol li
+{
+    text-align: left;
+    font-size: 24px;
+}
+a
+{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}

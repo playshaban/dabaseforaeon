@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300&display=swap');
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body
+{
+    padding: 10px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+header
+{
+    
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    background-image: linear-gradient(lightblue,white,lightblue);
+}
+.logo
+{
+    transform: translateX(-40%);
+}
+
+h1
+{
+    font-family: 'Nunito', sans-serif;
+}
+h2
+{
+    font-family: 'Nunito', sans-serif;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    gap: 50%;
+    background-image: linear-gradient(white, grey);
+    
+}
+
+
+nav #add_btn
+{
+    text-decoration: none;
+    color: green;
+    font-family: 'Poppins', sans-serif;
+}
+.search
+{
+    display: flex;
+    flex-direction: row;
+}
+.search_list
+{
+    display: flex;
+    flex-direction: column;
+}
+.search_list ul
+{
+    display: block;
+    position: absolute;
+    transform:translateY(10px);
+    background-color: white;
+    padding: 5px;
+    list-style: none;
+}
+.search_list ul li
+{
+    padding: 2px;
+    background-color: white;
+}
+.search_list ul li:hover
+{
+    background-color: rgb(175, 166, 166);
+}
+.search_list ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+nav .search input, #search_btn
+{
+    font-family: 'Poppins', sans-serif;
+    padding: 2px;
+}
+#search_btn:hover
+{
+    background-color: lightblue;
+}
+.container
+{
+    
+    
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    overflow: hidden;
+    gap: 30px;
+    background-image: linear-gradient(lightblue,white,lightblue);
+    
+}
+.add_e
+{
+    
+    width: 500px;
+    
+    display: none;
+    position:absolute;
+    background-image: linear-gradient(lightblue,white,lightblue);
+    
+    transform: translate(300px,-150px);
+
+    
+    text-align: center;
+    
+    box-shadow: 10px 10px 100px 20px;
+    border-radius: 15px;
+    flex-direction:column;
+    justify-content: center;
+    overflow: hidden;
+    gap: 30px;
+}
+.add_e form
+{
+   
+    
+    margin: 0 auto;
+    padding: 40px;
+    gap: 10px;
+    
+    text-align: left;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.add_e table
+{
+    margin: auto;
+}
+.add_e table tr td
+{
+    border: none;
+}
+
+.add_e .sbm
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25%;
+}
+.add_e .sbm input
+{
+    padding: 5px;
+}
+
+
+/* Updating form section starts here  */
+
+.update
+{
+    display: none;
+    width: 500px;
+    
+    position:absolute;
+    background-image: linear-gradient(lightblue,white,lightblue);
+    
+    transform: translate(300px,-150px);
+
+    
+    text-align: center;
+    
+    box-shadow: 10px 10px 100px 20px;
+    border-radius: 15px;
+    flex-direction:column;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.update form
+{
+   
+    
+    margin: 0 auto;
+    padding: 40px;
+    gap: 10px;
+    
+    text-align: left;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.update table
+{
+    margin: auto;
+}
+.update table tr td
+{
+    border: none;
+}
+
+.update .sbm
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25%;
+}
+.update .sbm input
+{
+    padding: 5px;
+}
+
+/* Deleting Popup starts form here  */
+
+.delete_e
+{
+    display: none;
+    width: 500px;
+    
+    position:absolute;
+    background-image: linear-gradient(lightblue,white,lightblue);
+    
+    transform: translate(300px,-150px);
+
+    
+    text-align: center;
+    
+    box-shadow: 10px 10px 100px 20px;
+    border-radius: 15px;
+    flex-direction:column;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.delete_e form
+{
+   
+    
+    margin: 0 auto;
+    padding: 40px;
+    gap: 10px;
+    
+    text-align: left;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.delete_e table
+{
+    margin: auto;
+}
+.delete_e table tr td
+{
+    border: none;
+}
+
+.delete_e .sbm
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25%;
+}
+.delete_e .sbm input
+{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+/* container starts form here */
+table
+{
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+table tr
+{
+    width: 100%;
+}
+tr td
+{
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px dotted gray;
+
+    font-family: 'Poppins', sans-serif; 
+    
+}
