@@ -17,7 +17,7 @@ if(!empty($_SESSION['login_id']))
         <header>
             <div class="logo"><img src="https://www.aeonlogiciel.com/images/logo-1.png" width="15%" alt=""></div>
         </header>
-            <h1> AEON LOGICIEL EMPLOYEE DATEBASE </h1>
+            <h1> Hello Mister Shaban Khan  </h1>
             <h2>Admin Login Pannel</h2>
             <div class="error_msg">
                 <p>Reporting an error</p>
